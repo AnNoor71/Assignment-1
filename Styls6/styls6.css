@@ -1,0 +1,50 @@
+/* nav style */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-head{
+    color: #4E47FF;
+    font-weight:99;
+    height: 51px;
+    font-size:45px;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px
+}
+.Button{
+    border: none;
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 20px;  
+    transition: background-color 0.266789s ease;
+     
+}
+.Button:hover {
+    background-color: #fd7e14; 
+    cursor: pointer;
+}
+.content-1{
+    margin: 150px 270px 270px 270px;
+    text-align: center;
+}
+.prothom{
+    font-size: 90px;
+    font-weight: bolder;
+}
+header {
+    width: 100%;
+    height: 101vh;
+    max-width: none; 
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
